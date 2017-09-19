@@ -1,0 +1,76 @@
+
+*{
+  box-sizing: boader-box;
+  padding: 0;
+  margin: 0;
+}
+/*<!-- this is the body !-->*/
+body{
+  background-color:pink;
+  font-family: 'Open Sans Condensed', cursive;
+  font-size:12px
+  font-weight:bold;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  background-color:#BADA55;
+}
+nav{
+  text-align: right;
+}
+nav a:hover{
+  color:pink;
+}
+h1, h2,h3,h4,h5,h6{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+  font-size: 40px;
+  margin-top:50px;
+}
+h2{ /*<!-- this is my skills!-->*/
+  font-size: 50px;
+  margin-top:50px;
+}
+h3{
+  font-size: 20px
+}
+h4{
+  font-size: 20px
+}
+h5{
+  font-size: 40px
+}
+h6{
+  font-size: 40px
+}
+/*<!-- this is the header !-->*/
+header{
+  background-image: url("https://unsplash.it/700/500/?random");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh
+}
+/*<!-- this is the background color !-->*/
+#about{
+  background-color: pink;
+  padding: 5% 20%;
+}
+/*<!-- this is the background margin !-->*/
+#about div{
+  background-color: white;
+  padding: 15%;
+}
+
+#skills{
+  padding: 10%;
+}
+
+#skills .skill{
+padding:5%;
+}
+
+#myexperience div{
+  text-align: left;
+}
